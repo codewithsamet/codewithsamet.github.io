@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeWithSamet - Proje Portfolyosu ve İndirme Merkezi</title>
-    <!-- Tailwind CSS CDN -->
+    <title>CodeWithSamet - Proje Portfolyosu</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-600 selection:text-white">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
 
     <!-- Navbar -->
     <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between border-b border-slate-900">
@@ -24,20 +23,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="max-w-6xl mx-auto px-6 pt-16 pb-12 text-center">
-        <div class="inline-flex items-center space-x-2 bg-blue-950/60 border border-blue-800/50 px-4 py-1.5 rounded-full text-blue-400 text-sm mb-6">
-            <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
-            <span>Python & Masaüstü Yazılım Projeleri</span>
-        </div>
-        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
-            Kodla, Geliştir ve <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Paylaş.</span>
-        </h1>
-        <p class="text-slate-400 text-base md:text-lg max-w-2xl mx-auto">
-            YouTube kanalımda sıfırdan inşa ettiğimiz yapay zeka destekli, sistem optimizasyon ve verimlilik araçlarını buradan keşfedebilir ve indirebilirsin [cite: Gemini Chat. Evidence: CodeWithSamet kanalınız, Python ve yapay zeka araçlarını kullanarak sıfırdan masaüstü yazılımları geliştirme odaklı bir vizyona sahiptir. İçerik konseptiniz; not alma uygulamaları, sistem optimizasyon araçları ve benzeri verimlilik odaklı projelerin uçtan uca üretim sürecini izleyicilere sunmayı hedefler.].
-        </p>
-    </section>
-
     <!-- Projeler Listesi -->
     <section class="max-w-6xl mx-auto px-6 py-12">
         <h2 class="text-2xl font-bold mb-8 flex items-center space-x-3">
@@ -47,6 +32,25 @@
 
         <div class="grid md:grid-cols-2 gap-8">
             
+            <!-- SmartNotes Pro -->
+            <div class="bg-slate-900/50 border border-slate-800/60 p-6 rounded-2xl flex flex-col justify-between hover:border-blue-500/50 transition">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="bg-blue-500/10 text-blue-400 text-xs font-semibold px-3 py-1 rounded-full">Python / AI</span>
+                        <span class="text-slate-500 text-sm">v1.0</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">SmartNotes Pro</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Ses kaydı alma ve yapay zeka destekli analiz araçlarıyla donatılmış akıllı masaüstü not alma uygulaması.
+                    </p>
+                </div>
+                <div class="pt-4 border-t border-slate-800/80">
+                    <a href="https://github.com/codewithsamet/codewithsamet.github.io/releases/tag/smartnotes-v1.0" class="block bg-blue-600 hover:bg-blue-500 text-white text-center py-2.5 rounded-xl text-sm font-medium transition shadow-lg shadow-blue-600/20">
+                        <i class="fa-solid fa-download mr-2"></i> İndir (.exe)
+                    </a>
+                </div>
+            </div>
+
             <!-- WinOptimizer Pro -->
             <div class="bg-slate-900/50 border border-slate-800/60 p-6 rounded-2xl flex flex-col justify-between hover:border-blue-500/50 transition">
                 <div>
@@ -69,7 +73,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="max-w-6xl mx-auto px-6 py-12 border-t border-slate-900 text-center text-slate-500 text-sm">
         <p>&copy; 2026 CodeWithSamet. Tüm hakları saklıdır.</p>
     </footer>
