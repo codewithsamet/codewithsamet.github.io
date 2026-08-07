@@ -17,8 +17,8 @@ const projectsData = [
         categoryBg: "bg-indigo-500/10 text-indigo-400 border-indigo-500/20",
         description: "Windows performansını artıran, gereksiz dosyaları temizleyen özel kurulum betikleri ve sistem aracı.",
         downloadLink: "https://github.com/codewithsamet/codewithsamet.github.io/releases/tag/winoptimizer-v1.0",
-        virusTotalLink: "#",
+        virusTotalLink: "https://www.virustotal.com/gui/file/4837e6dc8ef725b3191945850bd4ce46b56307a1dc5d6a79ecd38813b55c4ac",
         accentColor: "indigo",
-        warningText: null
+        warningText: "Not: Bazı antivirüslerin (Microsoft vb.) gösterdiği uyarı, Python paketleyicilerinin kodları gizlemesinden kaynaklanan tipik bir yanlış alarmdır."
     }
 ];
