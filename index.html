@@ -4,101 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeWithSamet - Proje Portfolyosu</title>
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased overflow-x-hidden selection:bg-blue-600 selection:text-white">
 
-    <!-- Arka Plan Parlama Efektleri -->
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-blue-600/15 blur-[140px] rounded-full pointer-events-none"></div>
     <div class="absolute top-[40%] right-[-10%] w-[400px] h-[400px] bg-indigo-600/10 blur-[150px] rounded-full pointer-events-none"></div>
 
-    <!-- Navbar -->
     <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between relative z-10 border-b border-slate-900/80 backdrop-blur-md">
-        <div class="flex items-center space-x-3 group cursor-pointer">
-            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center shadow-lg shadow-blue-500/40 group-hover:scale-110 transition duration-300">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center shadow-lg shadow-blue-500/40">
                 <i class="fa-solid fa-code text-white text-lg"></i>
             </div>
             <span class="text-xl font-bold tracking-wide">CodeWith<span class="text-blue-500">Samet</span></span>
         </div>
         <div class="flex items-center space-x-4">
-            <a href="https://youtube.com/@CodeWithSamet" target="_blank" class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-red-600 hover:border-red-500 transition duration-300 shadow-md">
-                <i class="fa-brands fa-youtube text-lg"></i>
-            </a>
-            <a href="https://github.com/codewithsamet" target="_blank" class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-800 transition duration-300 shadow-md">
-                <i class="fa-brands fa-github text-lg"></i>
-            </a>
+            <a href="https://youtube.com/@CodeWithSamet" target="_blank" class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-red-600 transition"><i class="fa-brands fa-youtube text-lg"></i></a>
+            <a href="https://github.com/codewithsamet" target="_blank" class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-800 transition"><i class="fa-brands fa-github text-lg"></i></a>
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="max-w-4xl mx-auto px-6 pt-24 pb-16 text-center relative z-10">
-        <div class="inline-flex items-center space-x-2 bg-blue-950/40 border border-blue-500/30 px-4 py-2 rounded-full text-blue-400 text-sm mb-6 shadow-inner animate-float">
-            <span class="w-2.5 h-2.5 rounded-full bg-blue-500 animate-ping"></span>
-            <span class="font-medium">Güvenli Masaüstü Uygulamaları Arşivi</span>
-        </div>
-        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 leading-tight">
-            Kodla, Geliştir ve <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500">Keşfet.</span>
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">
+            Kodla, Geliştir ve <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Keşfet.</span>
         </h1>
-        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
-            YouTube kanalımda sıfırdan inşa ettiğimiz yapay zeka ve sistem optimizasyon araçlarını aşağıdan inceleyebilir, VirusTotal güvenlik raporlarıyla birlikte güvenle indirebilirsin.
+        <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
+            YouTube kanalımda geliştirdiğim tüm açık kaynaklı araçları ve projeleri buradan inceleyebilir, VirusTotal güvenlik raporlarıyla güvenle indirebilirsin.
         </p>
     </section>
 
-    <!-- Projeler Listesi (JavaScript ile Dinamik Dolacak) -->
     <section class="max-w-6xl mx-auto px-6 py-12 relative z-10">
-        <div class="flex items-center justify-between mb-8">
-            <h2 class="text-2xl font-bold flex items-center space-x-3">
-                <i class="fa-solid fa-layer-group text-blue-500"></i>
-                <span>Öne Çıkan Projelerim</span>
-            </h2>
-            <span class="text-xs text-slate-500 uppercase tracking-widest font-semibold">%100 Açık & Güvenli</span>
-        </div>
-
-        <div id="projects-grid" class="grid md:grid-cols-2 gap-8">
-            <!-- Projeler JavaScript ile buraya otomatik yüklenecek -->
-        </div>
+        <div id="projects-grid" class="grid md:grid-cols-2 gap-8"></div>
     </section>
 
-    <!-- Footer -->
-    <footer class="max-w-6xl mx-auto px-6 py-12 mt-12 border-t border-slate-900/80 text-center text-slate-500 text-sm relative z-10 flex flex-col md:flex-row items-center justify-between">
-        <p>&copy; 2026 CodeWithSamet. Tüm hakları saklıdır.</p>
-        <div class="flex space-x-6 mt-4 md:mt-0">
-            <a href="https://youtube.com/@CodeWithSamet" target="_blank" class="hover:text-slate-300 transition">YouTube</a>
-            <a href="https://github.com/codewithsamet" target="_blank" class="hover:text-slate-300 transition">GitHub</a>
-        </div>
-    </footer>
-
-    <!-- Projeleri Ekrana Basan JavaScript Mantığı -->
     <script src="projects.data.js"></script>
     <script>
         const grid = document.getElementById('projects-grid');
-        
         projectsData.forEach(project => {
             const card = document.createElement('div');
-            card.className = `group bg-slate-900/40 border border-slate-800/80 p-8 rounded-3xl flex flex-col justify-between hover:border-${project.accentColor}-500/60 hover:bg-slate-900/80 hover:-translate-y-2 transition-all duration-300 shadow-xl shadow-black/40 relative overflow-hidden`;
+            card.className = `group bg-slate-900/40 border border-slate-800/80 p-8 rounded-3xl flex flex-col justify-between hover:border-${project.accentColor}-500/60 hover:bg-slate-900/80 transition-all duration-300 shadow-xl shadow-black/40 relative overflow-hidden`;
             
+            let warningHTML = project.warningText ? `
+                <div class="mb-6 p-3.5 bg-amber-500/10 border border-amber-500/20 rounded-2xl flex items-start space-x-3 text-xs text-amber-300/90 leading-relaxed">
+                    <i class="fa-solid fa-triangle-exclamation text-amber-400 mt-0.5 shrink-0"></i>
+                    <span>${project.warningText}</span>
+                </div>` : '';
+
             card.innerHTML = `
-                <div class="absolute top-0 right-0 w-32 h-32 bg-${project.accentColor}-500/5 blur-3xl group-hover:bg-${project.accentColor}-500/20 transition duration-500"></div>
                 <div>
                     <div class="flex items-center justify-between mb-6">
                         <span class="${project.categoryBg} text-xs font-semibold px-3.5 py-1.5 rounded-full border">${project.category}</span>
                         <span class="text-slate-500 text-sm font-mono">${project.version}</span>
                     </div>
-                    <h3 class="text-2xl font-bold mb-3 text-slate-100 group-hover:text-${project.accentColor}-400 transition">${project.title}</h3>
-                    <p class="text-slate-400 text-sm md:text-base leading-relaxed mb-8">
-                        ${project.description}
-                    </p>
+                    <h3 class="text-2xl font-bold mb-3 text-slate-100">${project.title}</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">${project.description}</p>
+                    ${warningHTML}
                 </div>
                 <div class="space-y-3">
-                    <a href="${project.downloadLink}" class="block bg-${project.accentColor}-600 hover:bg-${project.accentColor}-500 text-white text-center py-3.5 rounded-2xl text-sm font-semibold transition duration-300 shadow-lg shadow-${project.accentColor}-600/30">
-                        <i class="fa-solid fa-download mr-2"></i> İndir (.exe)
-                    </a>
-                    <a href="${project.virusTotalLink}" target="_blank" class="block bg-slate-800/60 hover:bg-slate-800 text-slate-300 hover:text-white text-center py-2.5 rounded-xl text-xs font-medium border border-slate-700/60 transition duration-300">
-                        <i class="fa-solid fa-shield-halved text-emerald-400 mr-1.5"></i> VirusTotal Güvenlik Raporu
-                    </a>
+                    <a href="${project.downloadLink}" class="block bg-${project.accentColor}-600 hover:bg-${project.accentColor}-500 text-white text-center py-3.5 rounded-2xl text-sm font-semibold transition">İndir (.exe)</a>
+                    <a href="${project.virusTotalLink}" target="_blank" class="block bg-slate-800/60 hover:bg-slate-800 text-slate-300 hover:text-white text-center py-2.5 rounded-xl text-xs font-medium border border-slate-700/60 transition">Güvenlik Raporu</a>
                 </div>
             `;
             grid.appendChild(card);
