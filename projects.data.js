@@ -20,5 +20,16 @@ const projectsData = [
         virusTotalLink: "https://www.virustotal.com/gui/file/4837e6dc8ef725b3191945850bd4ce46b56307a1dc5d6a79ecd38813ba55c4ac",
         accentColor: "indigo",
         warningText: "Not: Bazı antivirüslerin (Microsoft vb.) gösterdiği uyarı, Python paketleyicilerinin kodları gizlemesinden kaynaklanan tipik bir yanlış alarmdır."
+    },
+    {
+        title: "Pulse Browser",
+        version: "v1.0",
+        category: "Python / Web",
+        categoryBg: "bg-orange-500/10 text-orange-400 border-orange-500/20",
+        description: "Python ve PyQt6 kullanılarak geliştirilmiş; hafif, sade ve minimalist masaüstü web tarayıcısı.",
+        downloadLink: "https://github.com/codewithsamet/codewithsamet.github.io/releases/tag/pulsebrowser-v1.0",
+        virusTotalLink: "https://www.virustotal.com/gui/file/2507ccb40a770ed4175189631c18bf152e909a2730ef5e61efd936993ecba33b?nocache=1",
+        accentColor: "orange",
+        warningText: "Not: Zillya motorunun verdiği uyarı, Python ile derlenen kurulum dosyalarında görülen klasik bir yanlış alarmdır (false positive). Diğer 69 antivirüs motoru temizdir."
     }
 ];
