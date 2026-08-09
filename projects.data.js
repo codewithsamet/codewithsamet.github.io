@@ -26,7 +26,6 @@ const projectsData = [
         version: "v1.0",
         category: "Python / Web",
         categoryBg: "bg-blue-500/10 text-blue-400 border-blue-500/20",
-accent  Color: "blue",
         description: "Python ve PyQt6 kullanılarak geliştirilmiş; hafif, sade ve minimalist masaüstü web tarayıcısı.",
         downloadLink: "https://github.com/codewithsamet/codewithsamet.github.io/releases/tag/pulsebrowser-v1.0",
         virusTotalLink: "https://www.virustotal.com/gui/file/2507ccb40a770ed4175189631c18bf152e909a2730ef5e61efd936993ecba33b?nocache=1",
