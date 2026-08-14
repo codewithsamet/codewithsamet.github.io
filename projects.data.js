@@ -31,5 +31,16 @@ const projectsData = [
         virusTotalLink: "https://www.virustotal.com/gui/file/2507ccb40a770ed4175189631c18bf152e909a2730ef5e61efd936993ecba33b?nocache=1",
         accentColor: "orange",
         warningText: "Not: Zillya motorunun verdiği uyarı, Python ile derlenen kurulum dosyalarında görülen klasik bir yanlış alarmdır (false positive). Diğer 69 antivirüs motoru temizdir."
-    }
+    },
+    {
+        title: "Flow Downloader",
+        version: "v1.0",
+        category: "Python / Web",
+        categoryBg: "bg-blue-500/10 text-blue-400 border-blue-500/20",
+        description: "Tarayıcı entegrasyonu ve modern arayüzü sayesinde medya dosyalarını saniyeler içinde yüksek hızla indiren akıllı masaüstü indirme asistanı.",
+        downloadLink: "https://github.com/codewithsamet/codewithsamet.github.io/releases/tag/flowdownloader-v1.0",
+        virusTotalLink: "https://www.virustotal.com/gui/file/83ed44514f3a62359be3ad18e131a984ad498796c6803cc169d8958c12c820b6?nocache=1",
+        accentColor: "blue",
+        warningText: "Not: Bazı antivirüslerin gösterdiği uyarı, Python ile paketlenen dosyalarda sıkça görülen yanlış bir alarmdır (false positive). Diğer antivirüs motorları temizdir."
+    },
 ];
