@@ -43,4 +43,15 @@ const projectsData = [
         accentColor: "blue",
         warningText: "Not: Bazı antivirüslerin gösterdiği uyarı, Python ile paketlenen dosyalarda sıkça görülen yanlış bir alarmdır (false positive). Diğer antivirüs motorları temizdir."
     },
+    {
+        title: "DocuMind_AI",
+        version: "v1.0",
+        category: "Python / AI",
+        categoryBg: "bg-blue-500/10 text-blue-400 border-blue-500/20",
+        description: "Kendi dokümanlarınızı yükleyerek yapay zeka ile etkileşime girebildiğiniz, RAG mimarili akıllı masaüstü doküman ve analiz asistanı.",
+        downloadLink: "https://github.com/codewithsamet/codewithsamet.github.io/releases/tag/documind-v1.0",
+        virusTotalLink: "https://www.virustotal.com/gui/file/a1edad793d0e1f96cd25f0fe9d0e846831c956caf5899fa31b00705b84846ac5?nocache=1",
+        accentColor: "blue",
+        warningText: "Not: Bazı antivirüslerin gösterdiği uyarı, Python paketleyicilerinin kodları derlemesinden kaynaklanan tipik bir yanlış alarmdır (false positive)."
+    },
 ];
